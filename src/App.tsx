@@ -1,7 +1,7 @@
 import './App.css'
 import {Routes, Route} from "react-router-dom"
 import LandingPage from './components/LandingPage/LandingPage'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import About from './components/About/About';
 
 function App() {
 
@@ -9,6 +9,7 @@ function App() {
     <div id="app">
         <Routes>
           <Route path='/' element={<LandingPage/>}></Route>
+          <Route path='/about' element={<About/>}></Route>
         </Routes>
       </div>
   )

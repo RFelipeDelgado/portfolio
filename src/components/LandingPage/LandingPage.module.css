@@ -1,0 +1,18 @@
+.bodyContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.bodyLeft {
+    width: 45%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-right: 10px; 
+}
+
+.bodyRight {
+    width: 45%;
+    border: 1px solid black;
+    border-radius: 10px;
+}
